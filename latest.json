@@ -1,0 +1,18 @@
+pipeline {
+    agent any
+    stages {
+        stage('build') {
+            steps { 
+                echo 'Welcome to assingment build'
+            }
+        }stage('test') {
+            steps { 
+                echo 'Welcome to assingment test'
+            }
+        }stage('deploy') {
+            steps { 
+                echo 'assingment deploy'
+            }
+        }
+    }
+}
