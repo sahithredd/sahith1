@@ -1,0 +1,22 @@
+pipeline {
+    agent any
+    stages {
+        stage('build') {
+            steps { 
+                echo 'assingment latest 1'
+            } stage('test') {
+            steps { 
+                echo 'assingment latest 1 test'
+            }
+        } stage('scan') {
+            steps { 
+                echo 'assingment latest 1 scan'
+            }
+        }stage('deploy') {
+            steps { 
+                echo 'assingment latest 1 deploy'
+            }
+        }
+        }
+    }
+}
